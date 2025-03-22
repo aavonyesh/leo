@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+}
+.navbar_main {
+  width: 100%;
+  height: 40px;
+  background-color: #f0f3f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar_main_links {
+  width: 85%;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.navbar_main_links li {
+  display: inline-block;
+  margin: 10px;
+  font-family: "montserrat", sans-serif;
+  font-size: 12px;
+  color: #808080;
+}
+.navbar_page {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar_page_links {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar_page_links li {
+  display: inline-block;
+  margin: 10px;
+  font-family: "montserrat", sans-serif;
+  font-size: 14px;
+  color: black;
+}
+i {
+  font-size: 10px;
+  color: #808080;
+  margin: 5px;
+}
+
+.hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero_contents {
+  width: 73%;
+  height: 420px;
+  margin: 20px auto 305px;
+  background: linear-gradient(65deg, #98c7fe, #a5f6ff 53.48%, #adfff0),
+    linear-gradient(185deg, #b3f9d8, #e3f5b0),
+    linear-gradient(58deg, #ffe7b8 30.98%, #ffe2b8 66.98%, #ffbfb8 100.57%);
+  padding: 120px 0;
+  position: relative;
+  border-radius: 120px 240px;
+}
+.main_txt {
+  /* max-width: %; */
+  margin-left: 6%;
+}
+.hero_contents h1 {
+  font-size: 40px;
+  margin-left: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hero_contents p {
+  font-size: 14px;
+  margin-left: 5%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 25px 0;
+}
+.app {
+  width: 40%;
+  display: block;
+  padding: 10px 0;
+  margin-left: 10.5%;
+}
+.desktop {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+}
+.gif {
+  position: absolute;
+  top: 55%;
+  left: 40%;
+}
+.features {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.features_content {
+  margin-bottom: 80px;
+}
+.main_txt2 {
+  font-size: 32px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: inline-block;
+  margin-left: -470px;
+}
+.cards_list {
+  width: 60%;
+  display: flex;
+  gap: 76px;
+  justify-content: space-between;
+  align-items: center;
+}
+.card1_item {
+  text-align: center;
+}
+.card1_content {
+  display: flex;
+  gap: 6px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+.card1_content_number {
+  font-size: 20px;
+  font-weight: 600;
+}
+.card1_content_text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.receive1 {
+  background: linear-gradient(34deg, #fcff70 16.43%, #70ffcc 89.53%),
+    linear-gradient(224deg, #fffb99, #ff9585);
+  filter: blur(62.5px);
+  position: absolute;
+  top: 130%;
+  left: 18%;
+  width: 240px;
+  height: 233px;
+  z-index: -1;
+}
+.card2_item {
+  text-align: center;
+}
+.card2_item img {
+  margin-bottom: 8%;
+}
+.card2_content {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  /* margin: 30px 0; */
+}
+.card2_content_number {
+  font-size: 20px;
+  font-weight: 600;
+}
+.card2_content_text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: left;
+}
+.receive2 {
+  background: linear-gradient(34deg, #ff5cdb 16.43%, #fff847 89.53%),
+    linear-gradient(227deg, #f5b8ff, #b4adff);
+  filter: blur(62.5px);
+  position: absolute;
+  top:130%;
+  left: 44%;
+  width: 220px;
+  height: 180px;
+  z-index: -1;
+}
+.card3_item {
+  text-align: center;
+}
+.card3_content {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  /* margin: 30px 0; */
+}
+.card3_content_number {
+  font-size: 20px;
+  font-weight: 600;
+}
+.card3_content_text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: left;
+}
+.receive3 {
+  background: linear-gradient(
+    34deg,
+    #7affef 22.88%,
+    #70c3ff 45.57%,
+    #8d7aff 78.85%
+  );
+  filter: blur(62.5px);
+  position: absolute;
+  left: 70%;
+  top: 130%;
+  width: 229px;
+  height: 228px;
+  z-index: -1;
+}
